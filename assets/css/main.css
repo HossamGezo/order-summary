@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  body {
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center 143px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    background-position: 0 0;
+  }
+}
+body .card {
+  width: 325px;
+  height: 570px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: hsl(227, 74%, 85%) 0px 50px 40px -20px;
+}
+@media (min-width: 768px) {
+  body .card {
+    width: 385px;
+    height: 595px;
+  }
+}
+body .card .main-img {
+  width: 100%;
+  height: 162px;
+  margin-bottom: 26px;
+}
+@media (min-width: 768px) {
+  body .card .main-img {
+    height: 190px;
+    margin-bottom: 32px;
+  }
+}
+body .card__content {
+  padding: 0 24px;
+}
+@media (min-width: 768px) {
+  body .card__content {
+    padding: 0 40px;
+  }
+}
+body .card__content .order {
+  margin-bottom: 22px;
+}
+body .card__content .order h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  body .card__content .order h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: 900;
+  }
+}
+body .card__content .order p {
+  width: 90%;
+  margin: 0 auto;
+  color: hsl(224, 23%, 55%);
+  font-weight: normal;
+  line-height: 1.54;
+  font-size: 15px;
+}
+@media (min-width: 768px) {
+  body .card__content .order p {
+    font-size: 14px;
+  }
+}
+body .card__content .plan {
+  width: 100%;
+  height: 82px;
+  margin: 0 auto 24px;
+  padding: 0 18px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+}
+@media (min-width: 768px) {
+  body .card__content .plan {
+    padding: 0 22px;
+  }
+}
+body .card__content .plan-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+body .card__content .plan-wrapper img {
+  width: 47px;
+}
+@media (min-width: 768px) {
+  body .card__content .plan-wrapper img {
+    width: 40px;
+  }
+}
+body .card__content .plan-wrapper .plan__year h4 {
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+body .card__content .plan-wrapper .plan__year p {
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+}
+body .card__content .plan a {
+  color: hsl(245, 75%, 52%);
+  font-size: 12px;
+  font-weight: bold;
+  transition: 0.3s linear;
+}
+body .card__content .plan a:hover {
+  color: #756BF1;
+  text-decoration: none;
+}
+body .card__content .btn {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 10px;
+  height: 50px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 900;
+  margin-bottom: 33px;
+  box-shadow: hsl(245, 81%, 58%) 0px 10px 35px -10px;
+  transition: 0.3s linear;
+}
+@media (min-width: 768px) {
+  body .card__content .btn {
+    height: 40px;
+  }
+}
+body .card__content .btn:hover {
+  background-color: #756BF1;
+}
+body .card__content span {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 14px;
+  margin-top: -10px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+@media (min-width: 768px) {
+  body .card__content span {
+    font-size: 13px;
+    margin-top: -6px;
+  }
+}
+body .card__content span:hover {
+  color: #444;
+}
+body > img {
+  margin-left: 100px;
+}/*# sourceMappingURL=main.css.map */
